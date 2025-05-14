@@ -1,0 +1,162 @@
+[
+  {
+    "bookName": "The Lord of the Rings",
+    "author": "Tolkien J. R. R.",
+    "status": "read",
+    "rating": 5,
+    "genre": "Fantasy",
+    "note": ""
+  },
+  {
+    "bookName": "Hobit",
+    "author": "Tolkien J. R. R.",
+    "status": "read",
+    "rating": 4,
+    "genre": "Fantasy",
+    "note": ""
+  },
+  {
+    "bookName": "Saturnin",
+    "author": "Jirotka Z.",
+    "status": "plan",
+    "rating": 0,
+    "genre": "Comedy",
+    "note": "Some random note"
+  },
+  {
+    "bookName": "R.U.R.",
+    "author": "\u010Capek Karel",
+    "status": "reading",
+    "rating": 0,
+    "genre": "Sci-fi",
+    "note": "First appearance of word \u0027robot\u0027"
+  },
+  {
+    "bookName": "1984",
+    "author": "Orwell George",
+    "status": "read",
+    "rating": 0,
+    "genre": "Dystopian",
+    "note": "A classic of political fiction"
+  },
+  {
+    "bookName": "Brave New World",
+    "author": "Huxley Aldous",
+    "status": "read",
+    "rating": 5,
+    "genre": "Dystopian",
+    "note": "Thought-provoking on the future of humanity"
+  },
+  {
+    "bookName": "The Catcher in the Rye",
+    "author": "Salinger J.D.",
+    "status": "reading",
+    "rating": 0,
+    "genre": "Fiction",
+    "note": "A coming-of-age novel"
+  },
+  {
+    "bookName": "To Kill a Mockingbird",
+    "author": "Lee Harper",
+    "status": "read",
+    "rating": 5,
+    "genre": "Classic",
+    "note": "A timeless novel about racism"
+  },
+  {
+    "bookName": "Moby Dick",
+    "author": "Melville Herman",
+    "status": "plan",
+    "rating": 0,
+    "genre": "Adventure",
+    "note": "To read one day"
+  },
+  {
+    "bookName": "Pride and Prejudice",
+    "author": "Austen Jane",
+    "status": "reading",
+    "rating": 0,
+    "genre": "Romance",
+    "note": "Famous romance novel"
+  },
+  {
+    "bookName": "The Hobbit",
+    "author": "Tolkien J.R.R.",
+    "status": "read",
+    "rating": 5,
+    "genre": "Fantasy",
+    "note": "The prelude to Lord of the Rings"
+  },
+  {
+    "bookName": "The Alchemist",
+    "author": "Coelho Paulo",
+    "status": "read",
+    "rating": 5,
+    "genre": "Philosophy",
+    "note": "A tale of destiny and self-discovery"
+  },
+  {
+    "bookName": "The Great Gatsby",
+    "author": "Fitzgerald F. Scott",
+    "status": "read",
+    "rating": 4,
+    "genre": "Classic",
+    "note": "The American Dream in the 1920s"
+  },
+  {
+    "bookName": "Fahrenheit 451",
+    "author": "Bradbury Ray",
+    "status": "reading",
+    "rating": 0,
+    "genre": "Dystopian",
+    "note": "A future where books are banned"
+  },
+  {
+    "bookName": "The Picture of Dorian Gray",
+    "author": "Wilde Oscar",
+    "status": "read",
+    "rating": 5,
+    "genre": "Gothic",
+    "note": "A story about vanity and moral corruption"
+  },
+  {
+    "bookName": "Frankenstein",
+    "author": "Shelley Mary",
+    "status": "read",
+    "rating": 4,
+    "genre": "Horror",
+    "note": "The original science fiction horror novel"
+  },
+  {
+    "bookName": "Dracula",
+    "author": "Stoker Bram",
+    "status": "plan",
+    "rating": 0,
+    "genre": "Horror",
+    "note": "A vampire classic"
+  },
+  {
+    "bookName": "The Odyssey",
+    "author": "Homer",
+    "status": "read",
+    "rating": 5,
+    "genre": "Epic",
+    "note": "An epic journey of Odysseus"
+  },
+  {
+    "bookName": "War and Peace",
+    "author": "Tolstoy Leo",
+    "status": "plan",
+    "rating": 0,
+    "genre": "Historical",
+    "note": "An epic historical novel"
+  },
+  {
+    "bookName": "The Divine Comedy",
+    "author": "Alighieri Dante",
+    "status": "reading",
+    "rating": 0,
+    "genre": "Poetry",
+    "note": "A journey through Hell, Purgatory, and Heaven"
+  }
+]
