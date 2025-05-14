@@ -21,7 +21,7 @@ namespace RocnikovkaODK_Zampach
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            // Nastavit výchozí hodnotu pro radio buttons
+            // Nastavení výchozích hodnot pro radio buttons
             radioRead.IsChecked = true;
             radioPlan.IsChecked = false;
             radioReading.IsChecked = false;
@@ -33,8 +33,11 @@ namespace RocnikovkaODK_Zampach
 
         private void btn_addBook_Click(object sender, RoutedEventArgs e)
         {
-            AddBookWindow addBook = new AddBookWindow();
+            AddBookWindow addBook = new AddBookWindow(logic.ListVsechKnih);
             addBook.ShowDialog();
+
+            logic.FileReader.writeFile("books.json", logic.ListVsechKnih);
+            logic.LoadData(Book_status, Sort_status);
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)

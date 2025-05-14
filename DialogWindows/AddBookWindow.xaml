@@ -7,6 +7,44 @@
         mc:Ignorable="d"
         Title="Add Book" Height="500" Width="350">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="69*"/>
+            <RowDefinition Height="333*"/>
+            <RowDefinition Height="82*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Add book:" FontSize="20" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="2" Margin="10,10,10,10" Grid.Row="0"></Label>
+
+        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,69,233,0" Grid.RowSpan="3">
+            <Label Content="Book name:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+            <Label Content="Author:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+            <Label Content="Status:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+            <Label Content="Genre:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+            <Label Content="Rating:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+            <Label Content="Note:" Margin="5" FontSize="16" HorizontalAlignment="Right"></Label>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="1" HorizontalAlignment="Left" Margin="0,69,0,0" Grid.RowSpan="3">
+            <TextBox Name="txtBoxBookName" Text="" FontSize="16" Margin="10" Height="22" Width="200" HorizontalAlignment="Left"></TextBox>
+            <TextBox Name="txtBoxAuthor" Text="" FontSize="16" Margin="10" Height="22" Width="200" HorizontalAlignment="Left"></TextBox>
+            <ComboBox Name="cboxStatus" Width="200" Height="22" Margin="10" FontSize="14" SelectedIndex="0">
+                <ComboBoxItem Tag="read" Content="Read"></ComboBoxItem>
+                <ComboBoxItem Tag="plan" Content="Plan to read"></ComboBoxItem>
+                <ComboBoxItem Tag ="reading" Content="Reading"></ComboBoxItem>
+            </ComboBox>
+            <TextBox Name="txtBoxGenre" Text="" FontSize="16" Margin="10" Height="22" Width="200" HorizontalAlignment="Left"></TextBox>
+            <ComboBox Name="cboxRating" Width="200" Height="22" Margin="10" FontSize="14" SelectedIndex="0">
+                <ComboBoxItem Tag ="0" Content="No rating"></ComboBoxItem>
+                <ComboBoxItem Tag="1" Content="*"></ComboBoxItem>
+                <ComboBoxItem Tag="2" Content="**"></ComboBoxItem>
+                <ComboBoxItem Tag ="3" Content="***"></ComboBoxItem>
+                <ComboBoxItem Tag ="4" Content="****"></ComboBoxItem>
+                <ComboBoxItem Tag ="5" Content="*****"></ComboBoxItem>
+            </ComboBox>
+            <TextBox Name="txtBoxNote" Text="" TextWrapping="Wrap" FontSize="16" Margin="10" Height="66" Width="200" HorizontalAlignment="Left"></TextBox>
+        </StackPanel>
+        <Button Content="Add" Width="150" Height="30" FontSize="20" Margin="10" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Click="Button_Click"></Button>
     </Grid>
 </Window>

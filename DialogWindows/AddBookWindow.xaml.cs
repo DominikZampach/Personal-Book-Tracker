@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,9 +20,33 @@ namespace RocnikovkaODK_Zampach.DialogWindows
     /// </summary>
     public partial class AddBookWindow : Window
     {
-        public AddBookWindow()
+        public ObservableCollection<Book> Books { get; set; }
+        public AddBookWindow(ObservableCollection<Book> books)
         {
             InitializeComponent();
+            Books = books;
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string status = "";
+            switch (cboxStatus.SelectedIndex)
+            {
+                case 0:
+                    status = "read";
+                    break;
+                case 1:
+                    status = "plan";
+                    break;
+                case 2:
+                    status = "reading";
+                    break;
+                default:
+                    break;
+            }
+            Book book = new Book(txtBoxBookName.Text, txtBoxAuthor.Text, status, cboxRating.SelectedIndex, txtBoxGenre.Text, txtBoxNote.Text);
+            Books.Add(book);
+            this.Close();
         }
     }
 }

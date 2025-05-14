@@ -119,6 +119,7 @@ namespace RocnikovkaODK_Zampach
 
         public void initializeData()
         {
+            checkRating();
             RatingInStars = convertRatingToStars();
             StatusIndex = getStatusIndex();
         }
