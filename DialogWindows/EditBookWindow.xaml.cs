@@ -40,5 +40,19 @@ namespace RocnikovkaODK_Zampach.DialogWindows
             this.Close();
         }
 
+        private void txtBoxBookName_TextChanged_1(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txtBoxGenre_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txtBoxNote_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
     }
 }

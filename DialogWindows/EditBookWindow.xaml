@@ -34,6 +34,16 @@
                 <ComboBoxItem Tag="plan" Content="Plan to read"></ComboBoxItem>
                 <ComboBoxItem Tag ="reading" Content="Reading"></ComboBoxItem>
             </ComboBox>
+            <TextBox Name="txtBoxGenre" Text="{Binding Genre}" FontSize="16" Margin="10" Height="22" Width="200" TextChanged="txtBoxGenre_TextChanged" HorizontalAlignment="Left"></TextBox>
+            <ComboBox Name="cboxRating" Width="200" Height="22" Margin="10" FontSize="14" SelectedIndex="{Binding Rating}" SelectionChanged="cboxStatus_SelectionChanged">
+                <ComboBoxItem Tag ="0" Content="No rating"></ComboBoxItem>
+                <ComboBoxItem Tag="1" Content="*"></ComboBoxItem>
+                <ComboBoxItem Tag="2" Content="**"></ComboBoxItem>
+                <ComboBoxItem Tag ="3" Content="***"></ComboBoxItem>
+                <ComboBoxItem Tag ="4" Content="****"></ComboBoxItem>
+                <ComboBoxItem Tag ="5" Content="*****"></ComboBoxItem>
+            </ComboBox>
+            <TextBox Name="txtBoxNote" Text="{Binding Note}" TextWrapping="Wrap" FontSize="16" Margin="10" Height="66" Width="200" TextChanged="txtBoxNote_TextChanged" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
         <Button Content="Update" Width="150" Height="30" FontSize="20" Margin="10" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Click="Button_Click"></Button>
     </Grid>

@@ -33,8 +33,8 @@
   },
   {
     "bookName": "1984",
-    "author": "Orwell George",
-    "status": "read",
+    "author": "Orwell G.",
+    "status": "plan",
     "rating": 0,
     "genre": "Dystopian",
     "note": "A classic of political fiction"
@@ -42,8 +42,8 @@
   {
     "bookName": "Brave New World",
     "author": "Huxley Aldous",
-    "status": "read",
-    "rating": 5,
+    "status": "plan",
+    "rating": 0,
     "genre": "Dystopian",
     "note": "Thought-provoking on the future of humanity"
   },
@@ -125,7 +125,7 @@
     "status": "read",
     "rating": 4,
     "genre": "Horror",
-    "note": "The original science fiction horror novel"
+    "note": "The original science fiction horror novels"
   },
   {
     "bookName": "Dracula",
